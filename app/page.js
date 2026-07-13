@@ -55,6 +55,16 @@ export default function Home() {
 
   return (
     <main className="page-shell">
+      <header className="topbar">
+        <a className="brand" href="#top" aria-label="RAMCOR home">
+          <img src="/assets/ramcor-logo.svg" alt="RAMCOR" className="brand-logo" />
+        </a>
+        <nav className="nav-links">
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
       <section className="hero">
         <div className="hero-copy">
           <p className="eyebrow">Trusted technology partner for ambitious organisations</p>

@@ -32,6 +32,31 @@ a {
   text-decoration: none;
 }
 
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 0 20px;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+}
+
+.brand-logo {
+  width: 170px;
+  height: auto;
+  filter: drop-shadow(0 10px 20px rgba(82, 209, 200, 0.16));
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  color: var(--muted);
+  font-weight: 600;
+}
+
 .page-shell {
   max-width: 1200px;
   margin: 0 auto;
@@ -247,5 +272,9 @@ textarea:focus {
   .stats-grid,
   .field-row {
     grid-template-columns: 1fr;
+  }
+
+  .nav-links {
+    display: none;
   }
 }
